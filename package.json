@@ -2,12 +2,23 @@
   "name": "@maksim-kvashnin/ajs",
   "version": "1.0.0",
   "main": "dist/index.js",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode production"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maksim-kvashnin/ajs.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maksim-kvashnin/ajs/issues"
+  },
+  "homepage": "https://github.com/maksim-kvashnin/ajs#readme",
   "description": "",
   "devDependencies": {
     "@babel/cli": "^7.24.8",
